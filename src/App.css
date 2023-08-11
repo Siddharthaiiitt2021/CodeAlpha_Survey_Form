@@ -1,0 +1,55 @@
+body{
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #657DDB;
+}
+
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SurveyForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.5rem;
+    border-style: solid;
+    border-radius: 10%;
+    background-color: #63A6F2;
+}
+
+p{
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+#header{
+    margin-bottom: 1rem;
+    border-bottom-style: solid;
+    width: 100%;
+    text-align: center;
+}
+
+.Questions{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 0.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.q{
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.submit>button{
+    width: 100%;
+}
